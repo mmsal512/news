@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './editorial.css';
+@import './modern-design.css';
+
+[x-cloak] {
+    display: none;
+}
+
+/* RTL Support for Arabic */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .text-left {
+    text-align: right;
+}
+
+[dir="rtl"] .text-right {
+    text-align: left;
+}
+
+[dir="rtl"] .ms-2 {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+[dir="rtl"] .me-2 {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+[dir="rtl"] .ms-3 {
+    margin-left: 0;
+    margin-right: 0.75rem;
+}
+
+[dir="rtl"] .me-3 {
+    margin-right: 0;
+    margin-left: 0.75rem;
+}
+
+[dir="rtl"] .ms-10 {
+    margin-left: 0;
+    margin-right: 2.5rem;
+}
+
+[dir="rtl"] .ms-6 {
+    margin-left: 0;
+    margin-right: 1.5rem;
+}
+
+/* RTL flexbox adjustments */
+[dir="rtl"] .flex-row {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .justify-start {
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .justify-end {
+    justify-content: flex-start;
+}
+
+/* RTL positioning */
+[dir="rtl"] .left-4 {
+    left: auto;
+    right: 1rem;
+}
+
+[dir="rtl"] .right-4 {
+    right: auto;
+    left: 1rem;
+}
+
+[dir="rtl"] .left-0 {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .right-0 {
+    right: auto;
+    left: 0;
+}
+
+/* RTL border adjustments */
+[dir="rtl"] .border-l-4 {
+    border-left: 0;
+    border-right: 4px solid;
+}
+
+[dir="rtl"] .border-r {
+    border-right: 0;
+    border-left: 1px solid;
+}
+
+/* RTL padding adjustments */
+[dir="rtl"] .pl-12 {
+    padding-left: 0;
+    padding-right: 3rem;
+}
+
+[dir="rtl"] .pr-4 {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+[dir="rtl"] .pl-4 {
+    padding-left: 0;
+    padding-right: 1rem;
+}
+
+/* RTL Arabic font support */
+[dir="rtl"] body {
+    font-family: 'Cairo', 'Tajawal', 'Arial', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap');

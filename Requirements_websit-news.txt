@@ -1,0 +1,57 @@
+News Website Project
+General Description:
+I need a website specializing in artificial intelligence news, general news, and more, that automatically generates content through APIs.
+Basic Requirements:
+1. Technical Architecture
+a. Content Management System (Laravel 11.x / 12.x when available)
+b. Integrated with multiple APIs
+c. News Aid Database (MySQL)
+d. Categorization and Ranking System
+2. Content Sources
+Fetching news from:
+a. GNews API (Primary)
+b. NewsAPI (Secondary/Backup)
+3. Main Functions
+a. Automatic hourly news fetching
+b. Automatic news categorization
+c. Advanced content search
+d. Responsive user interface
+4. Content Types
+a. AI News
+b. Tutorials and Techniques
+c. General News
+5. Content Management
+a. Automatic news review
+b. Manual addition capability
+c. Category management
+d. Viewership statistics
+Required Technical Features:
+a. Performance caching system
+b. Search Engine Optimization
+c. Fast loading speed
+d. Arabic language support
+Advanced Methodology: Laravel + Livewire (Jetstream)
+Markdown:
+1. Laravel application with authentication
+2. NewsAPI integration
+3. Automated news fetching system functions
+4. Interface Content Management
+5. Intelligent Ranking System
+For the Programmer:
+a. Use Queue Jobs for automatic updates
+b. Implement a caching system to improve performance
+c. Add an automatic ranking system using artificial intelligence
+d. Protect copyright for content
+For the Project Owner:
+a. Choose reliable news sources
+b. Review the article before publishing
+c. Add exclusive content to differentiate the site
+d. Focus on SEO from the beginning
+1. Technical Environment
+env:
+a. Laravel 11.x (or 12.x when available)
+b. PHP 8.2+
+c. MySQL 8.0+
+d. Laravel Jetstream (Livewire)
+e. Tailwind CSS
+f. Alpine.js
